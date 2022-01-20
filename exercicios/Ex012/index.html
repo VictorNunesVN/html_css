@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML 5</title>
+</head>
+<body>
+    <h1>Inserinfo vídeos hospedados localmente </h1>
+    <p>Este video está hospedado no meu servidor</p>
+    <video width="560" poster="imagens/limoes-capa.png" controls>
+        <source src="medias/limon_SD.mp4" type="video/mp4">
+        <!--aqui devem ser incluidos todas as opçoes de formato para o video pois nem todos os navagaadores são compativeis com um determindado tipo de video-->
+        <p>Seu navegador não é compatível com reprodução de vídeo</p>
+    </video>
+     <!--Recomendado pois não consome banda do seu site, o que economiza dinheiro -->
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-QFZU78dy_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeos pelo Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/191894507?h=e15bf4bcf0" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
